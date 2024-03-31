@@ -24,9 +24,9 @@ body{
 }
 
 .start-container{
+  margin: 20px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 .start-container > *{
   margin-top: 25px;
@@ -52,7 +52,7 @@ body{
 }
 
 #start-procedure h1{
-  width: 700px;
+  /* width: 700px; */
 }
 
 #start-procedure input, #start-procedure button{
@@ -83,7 +83,8 @@ body{
 #start-procedure input{
   font-size: 30px;
   padding: 0 20px;
-  width: 700px;
+  width: 100%;
+  /* width: 700px; */
 }
 
 .left{
